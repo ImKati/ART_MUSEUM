@@ -102,18 +102,10 @@ ul li{
     width: 284px;  
 }
 
-.header_img{
-    max-width: 100%;
-}
-
 .search-form{
     width: 284px;
     margin-left: 0%;
     padding-top: 40px; 
-}
-
-.img{
-    max-width: 100%;
 }
 
 .painting_name{
@@ -134,16 +126,14 @@ ul li{
     justify-content: space-between;
     width: 90%;
     margin: auto;
-    align-items: center;
     margin-top: 70px;
 }
 
 .four_pictures {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 950px;
-    height: 820px;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .paint{
@@ -178,12 +168,8 @@ ul li{
     padding-left: 135px;
 }
 
-.pic2{
-    width: 890px;
-    height: 710px;
-    flex-wrap: wrap;
-    margin-top: -35px;
-    margin-left: 20px;
+.pic22{
+    width: 50%;
 }
 
 .title2{
@@ -218,7 +204,6 @@ ul li{
 .title4{
     width: 400px;
     height: 300px;
-    flex-wrap: wrap;
     
 }
 
@@ -387,6 +372,7 @@ ul li{
     flex-wrap: wrap;
     margin-top: -35px;
     margin-right: 20px;
+    width: 90%;
 }
 
 .title13{
@@ -395,6 +381,7 @@ ul li{
     flex-wrap: wrap;
     margin-top: -35px;
     margin-right: 20px;
+    width: 90%;
 }
 
 .log{
@@ -412,10 +399,8 @@ ul li{
 .next_start{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 950px;
-    height: 1400px;
-    margin-top: 70px;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .kartinka{
@@ -423,7 +408,6 @@ ul li{
     justify-content: space-between;
     width: 90%;
     margin: auto;
-    align-items: center;
     margin-top: 70px;
 }
 
@@ -440,10 +424,8 @@ ul li{
     margin-right: 1500px;
 }
 
-.icons_left{
-    padding-top: 50px;
-    margin-right: 1500px;
-
+.icons_right{
+    padding-top: 70px;
 }
 
 .icons2{
@@ -458,5 +440,36 @@ ul li{
     margin-left: 1480px;
 }
 
+.art {
+    width: 50%;
+}
 
+
+.footer_part_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.footer_part_1_left {
+    width: 50%;
+}
+
+.footer_part_2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.footer_part_2_left {
+    width: 50%;
+}
+
+.footer_part_2_right {
+
+}
 
